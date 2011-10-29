@@ -7,14 +7,10 @@ int main()
     cin>>t;
     while(t--)
     {
-        int f,n,sz;
+        int f,n;
         cin>>f>>n;
-        if(sz==1)
-        {
-            cout<<1<<endl;
-        }
-        else
-        {
+       
+       
         for(int r=0; r<n; r++)
          {
            for(int i=1; i<=f; i++)
@@ -40,8 +36,8 @@ int main()
          {
              cout<<endl;
          }
-         }
-        } 
+       }
+       
     } 
     return 0;
 }
